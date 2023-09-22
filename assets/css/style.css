@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.padNone{
+    padding: 0px !important;
+}
+body{
+ background: linear-gradient(to bottom, #010112, #000a17);
+}
+.wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+}
+.lineHeight{
+    line-height: 40px;
+}
+.marginRight{
+    margin-right: 25px;
+}
+.navbar{
+    height: 70px;
+    z-index: 1;
+}
+.card{
+    padding: 0px;
+    border-bottom: 1px solid #4a4a4a;
+}
+.title-center {
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.title-center h2{
+    color: #f0f8ff;
+    margin-bottom: 20px;
+}
+.title-center p{
+    color: #979797;
+}
+.titless{
+    color: #009688 !important;
+}
+.titless2{
+    color: #7E57C2 !important;
+}video-bg-2
+.text{
+    color: #979797;
+}
+.supernova-text{
+    list-style-type:georgian;
+}
+.supernova-text li{
+    color: #e4e4e4;
+    font-size: 19px;
+}
+.blackhole-text{
+    list-style-type:square;
+}
+.blackhole-text li{
+    color: #e4e4e4;
+    font-size: 19px;
+}
+.buttonColor{
+    color: #7E57C2;
+}
+.mbt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wid{
+    font-size: 19px;
+}
+.mt{
+    margin-top: 100px;
+}
+#author{
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: -5px 5px 12px #0077ff;
+}
+.border-radius{
+    border-radius: 30px 20px 10px 40px; 
+    border-bottom: 1px solid #4a4a4a;   
+    border-right: 1px solid #4a4a4a; 
+    box-shadow: -5px 5px 12px #0D47A1;
+}
+.border-radius-full{
+    border-radius: 50px 25px; 
+    border-bottom: 1px solid #4a4a4a;   
+    border-right: 1px solid #4a4a4a; 
+    box-shadow: #0d48a1a1 -5px 5px, #0d48a156 -10px 10px, #0d48a16c -15px 15px, #0d48a128 -20px 20px, #0d48a102 -25px 25px;
+}
+.border-radius-inside{
+    border-radius: 50px 25px; 
+    border-bottom: 1px solid #4a4a4a;   
+    border-right: 1px solid #4a4a4a; 
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(168, 168, 168) 0px 0px 0px 3px;
+}
+.border-line-left{
+    border-left: 1px solid white;
+}
+.border-radius-r{
+    border-radius: 40px 10px 20px 30px; 
+    border-bottom: 1px solid #4a4a4a;   
+    border-left: 1px solid #4a4a4a; 
+    box-shadow: -5px 5px 12px #0D47A1;
+}
+.border-radius-l{
+    border-radius: 40px 10px 20px 30px; 
+    border-bottom: 1px solid #4a4a4a;   
+    border-left: 1px solid #4a4a4a; 
+    box-shadow: 5px 5px 12px #4cc9f0;
+}
+.shadows{
+    box-shadow: -5px 5px 12px #0D47A1;
+}
+.fontsize{
+    font-size: 20px;
+}
+.active{
+    color: #7E57C2 !important;
+    font-weight: bold;
+}
+.hoverii:hover{
+    color: #0D47A1 !important;
+}
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+  
+  
+.nesto{
+    background-color: #020217;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.video-bg-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+.nebula{
+    color: #7E57C2;
+}
+.Teal{
+    color: #009688;
+}
+.pix{
+    margin: 0px;
+}
+.space-gallery-left{
+    padding: 20px;
+}
+.space-gallery-right{
+    padding: 20px;
+}
+.space-gallery-left img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 40px 10px;
+    box-shadow: -5px 5px 10px rgba(255, 255, 255, 0.473);
+    padding: 5px;
+}
+.space-gallery-right img{
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 10px 40px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.473);
+}
+.gallery-top-border{
+    border-top: 1px solid white;
+}
+.gallery-right-border{
+    border-right: 1px solid white;
+}
+.gallery-bottom-border{
+    border-bottom: 1px solid white;
+}
+.gallery-left-border{
+    border-left: 1px solid white;
+}
+#home {
+    height: 80vh;
+    background-image: url("../img/18.jpg");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  }
+  #transparent {
+    width: 100%;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  #transparent #test {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 15%;
+  }
+  #transparent #test h2 {
+    color: #e4e4e4;
+    font-size: 40px;
+  }
+  #transparent #test h1 {
+    color: #e4e4e4;
+    font-size: 55px;
+  }
+  #transparent #test h1 #colors {
+    color: #0077ff;
+  }
+  #transparent #test ul {
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  #transparent #test ul li {
+    margin-right: 30px;
+    display: inline;
+  }
+  #transparent #test ul li a {
+    font-size: 30px;
+    color: #0077ff;
+    text-decoration: none;
+  }
+  #transparent #test ul li a:hover {
+    color: #e4e4e4;
+  }
+  .mbp img{
+    width: 100%;
+  }
+  #author{
+    margin-bottom: 20px;
+  }
+  #author-p{
+    font-size: 20px;
+  }
+  .dole{
+    position: absolute;
+    bottom: 0px;
+  }
+  .nesto{
+    border: 1px solid #e1e1e1;
+    padding: 0px;
+  }
+  .bordering{
+    border-bottom: 1px solid #efefef;
+    width: 80%;
+    padding-bottom: 50px;
+  }
+  #supernova{
+    height: 80vh;
+    background-image: url("../img/supernova_2.jpg");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  }
+  #blackhole{
+    height: 80vh;
+    background-image: url("../img/blackhole_2.jpg");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  }
+  #gallery-header{
+    height: 80vh;
+    background-image: url("../img/blackhole_3.jpg");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer {
+    margin-top: 50px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center; /* Dodano za centriranje vertikalno */
+    padding: 0 20px; /* Dodano za unutrašnji prostor oko elemenata */
+}
+
+footer div p {
+    font-size: 20px;
+    color: #e4e4e4;
+}
+
+footer div a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #e4e4e4;
+    margin-right: 10px;
+}
+
+
+
+/* 
+Nebula Purple: #7E57C2
+Celestial Blue: #0D47A1
+Galactic Teal: #009688
+
+Stellar White: #FFFFFF
+Cosmic Silver: #CCCCCC
+Astral Gray: #888888
+*/

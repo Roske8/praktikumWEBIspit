@@ -1,0 +1,56 @@
+@media screen and (max-width: 426px) {
+    .buttonResp{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .pix{
+        font-size: 15px;
+    }
+    .mbp {
+        margin-bottom: 20px;
+    }
+    #author{
+        margin-left: 10%;
+    }
+}
+@media (max-width: 575.98px) {
+    footer div {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    footer div p {
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+
+    footer div a {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    footer div p {
+        font-size: 16px;
+    }
+
+    footer div a {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    footer div {
+        height: 70px;
+    }
+
+    footer div p {
+        font-size: 20px;
+    }
+
+    footer div a {
+        font-size: 30px;
+    }
+}
